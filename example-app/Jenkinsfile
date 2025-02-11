@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "tuusuario/laravel-app"
+        DOCKER_IMAGE = "joisnalo21/laravel-app"
         DOCKER_REGISTRY = "docker.io"
     }
 
